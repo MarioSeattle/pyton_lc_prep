@@ -1,0 +1,4 @@
+# TODO - prompt the user for their favorite book
+best_book = input("What is your favorite book ?")
+# TODO - give conflicting opinions
+print("I love " + best_book + "\n ... actually, " + best_book + " It is kinda of meh. You need..")
