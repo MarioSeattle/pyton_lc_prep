@@ -1,0 +1,12 @@
+#TODO 1: Ask for user input
+
+name = input("what is the name of the birthday person ?")
+
+lyric = "Happy Birthday to you"
+middle_lyric = "Happy Birthday dear "
+
+print(lyric + "\n" + lyric + "\n" + (middle_lyric + name)+ "\n" + lyric)
+
+
+
+#TODO 2: Using the strings above, user input, and punctuation, print out the lyrics to the song
