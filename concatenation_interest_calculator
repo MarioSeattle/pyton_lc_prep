@@ -1,0 +1,7 @@
+principal = int(input("How much money do you currently have in the bank?"))
+rate = float(input("What is your interest rate?"))
+time = int(input("Over how many years is the interest compounded?"))
+
+#TODO: Calculate the total amount and print the result
+
+print("Interest " + str(principal * (1 + rate) ** time))
