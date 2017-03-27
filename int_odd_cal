@@ -1,0 +1,9 @@
+# prompt the user for a number and convert the string to an int
+user_submission = input("Enter an integer: ")
+user_submission = int(user_submission)
+
+# we don't know how to print only one of these, so...print both?
+if (user_submission % 2 == 0):
+  print("whiz!")
+else:
+  print("bang!")
