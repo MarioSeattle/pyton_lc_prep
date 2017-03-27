@@ -1,0 +1,6 @@
+name = input("What is your name? ")
+if name ==  "Amar":
+    print("Hello Amar :)" + "\n" + "I like your shoes")
+elif name == "Brady":
+    print("Hello Brady :)" + "\n" + "You seem like a cool person")
+else: print("Hello " + name + " :)")
