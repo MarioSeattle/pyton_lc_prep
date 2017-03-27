@@ -1,0 +1,9 @@
+user_input = input("Enter an integer:")
+number = int(user_input) # user_input is a string, convert it
+
+if number % 2 == 0:
+
+    print("EVEN!")
+
+    if number > 0:
+        print("POSITIVE!")
