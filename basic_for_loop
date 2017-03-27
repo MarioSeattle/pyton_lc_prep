@@ -1,0 +1,2 @@
+for name in ["Luke", "Sheila", "Justin", "Mary", "Samantha"]:
+    print("Good morning, " + name + "!")
