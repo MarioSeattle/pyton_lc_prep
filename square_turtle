@@ -1,0 +1,15 @@
+import turtle               # allows us to use the turtles library
+wn = turtle.Screen()        # creates a graphics window
+alex = turtle.Turtle()
+
+# TODO: prompt the user for a size
+lenght = int(input("What is the side lenght for the square? "))
+
+# TODO: draw a square with sides of the given size
+alex.forward(lenght)
+alex.left(90)
+alex.forward(lenght)
+alex.left(90)
+alex.forward(lenght)
+alex.left(90)
+alex.forward(lenght)
