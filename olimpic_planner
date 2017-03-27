@@ -1,0 +1,11 @@
+year = input("Please input a year:")
+
+#TODO: Use conditionals to calculate whether this is a year for the summer
+if int(year) % 2 == 0: 
+    print("Winter Olympics! Let's watch some skating!")
+elif int(year) % 4 == 0:
+    print("Summer Olympics! Summer time...")
+else: print("Sorry, no Olympics this year.")
+  
+
+#olympics, winter olympics, or neither. Print the answer to the user.
