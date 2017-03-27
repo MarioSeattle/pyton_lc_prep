@@ -1,0 +1,4 @@
+coworker_names = ["Luke", "Sheila", "Justin", "Mary", "Samantha"]
+
+for name in coworker_names:
+    print("Good morning, " + name + "!")
