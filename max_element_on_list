@@ -1,0 +1,11 @@
+# create a list to
+numbers = [-1, 5, 17, -8, -133, 42, 6]
+
+# keep track of the largest num found so far
+largest = -1000
+
+for number in numbers:
+    if number > largest:
+        largest = number
+
+print("The largest number in the list", numbers,"is", largest)
