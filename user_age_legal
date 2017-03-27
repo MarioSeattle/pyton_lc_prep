@@ -1,0 +1,12 @@
+#TODO 1: Ask for user input
+age = input("What is your age ? ")
+
+#TODO 2: Use conditionals to determine what the person is legally
+if int(age) <= 16:
+    print("Someday kid")
+#allowed to do
+elif int(age) == 18:
+    print("You are allowed to vote")
+
+elif int(age) >= 21:
+    print("You are allowed to drink")
