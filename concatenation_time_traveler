@@ -1,0 +1,8 @@
+#TODO 1: Ask for user input
+time = int(input("What time is it ? " ))
+
+#TODO 2: Calculate the future hour
+print("You will be traveling to " + str((time + 6) - 24))
+
+#TODO 3: Print the answer. Do not be confused by this print statement - it
+#simply formats the way the time is printed.
