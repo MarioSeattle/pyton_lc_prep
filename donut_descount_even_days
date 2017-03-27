@@ -1,0 +1,6 @@
+day = str(input("What day of the week is it?"))
+date = int(input("What day of the month is it?"))
+
+if day == "sunday" or day == "SUNDAY" and (date % 2) == 0:
+    print(" 25% off the total price when buying a dozen")
+else: print(".99 per donut! Come back on sunday for 25% descount")
