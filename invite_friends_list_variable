@@ -1,0 +1,7 @@
+#TODO 1: Finish creating a list of names. Each should be a separate string.
+friend_names = ["Luke", "Sheila", "ustin", "Mary", "Samantha"]
+
+for name in friend_names:
+    print("your are invited to the party, " + name + "!")
+#TODO 2: Create a for loop using that list
+#TODO 3: Inside the loop, print out a short invitation to the person using their name.
