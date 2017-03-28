@@ -1,0 +1,7 @@
+total_miles_run = 0
+runs_this_week = [18, 4.5, 3, 3, 6]
+
+for daily_mileage in runs_this_week:
+    total_miles_run = total_miles_run + daily_mileage
+
+average_daily_mileage = total_miles_run / 5
