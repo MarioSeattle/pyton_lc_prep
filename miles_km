@@ -1,0 +1,6 @@
+miles = input("How many miles do you have to drive? ")
+miles= int(miles)
+kilometers = miles * 1.60934
+kilometers = int(kilometers)
+
+print("That distance is equal to", kilometers, "kilometers")
