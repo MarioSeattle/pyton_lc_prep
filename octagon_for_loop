@@ -1,0 +1,11 @@
+import turtle            # set up alex
+wn = turtle.Screen()
+alex = turtle.Turtle()
+
+for i in [0, 1, 2, 3]:      # repeat four times
+    alex.forward(30)
+    alex.left(50)
+    alex.forward(30)
+    alex.left(50)
+    
+    #don't forget endentation
