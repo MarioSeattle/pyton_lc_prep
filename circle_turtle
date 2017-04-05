@@ -1,0 +1,7 @@
+import turtle
+
+turing = turtle.Turtle()
+
+for i in range(15):
+    turing.forward(10)
+    turing.left(26)
