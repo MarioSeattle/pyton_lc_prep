@@ -1,0 +1,5 @@
+import random
+
+prob = random.random()
+result = prob * 5
+print(result)
