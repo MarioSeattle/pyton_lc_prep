@@ -1,0 +1,14 @@
+print("""Welcome to the Loop Hole!
+Today's Manager's Special is:
+Crunch Jelly: A traditional jelly donut in which the jelly filling is made 
+entirely of Capn' Crunch Berries Oops All Berries""")
+num_donuts = input("How many would you like?")
+num_donuts = float(num_donuts)
+cus_pay_donut = input("How much would you like to pay per donut (suggested price is $4.35 each)?")
+cus_pay_donut = float(cus_pay_donut)
+
+donut_price = cus_pay_donut * num_donuts * 1.05
+
+print("Ok, let me prepare that for you....")
+print("After tax, your total is:" + "$" + str(donut_price))
+print("Thank you for snacking! Loop back around here soon!")
