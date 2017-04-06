@@ -1,0 +1,17 @@
+nums = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+
+# TODO 1 
+# print each number on a new line
+# your code here:
+  
+  
+# TODO 2 
+# print each number and its square on a new line
+# your code here:
+import math
+for nums in [12, 10, 32, 3, 66, 17, 42, 99, 20]:
+    print(nums)
+for nums in [12, 10, 32, 3, 66, 17, 42, 99, 20]:
+    print("The square of", nums, "is", (nums*nums))
+  
+
