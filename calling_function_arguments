@@ -20,4 +20,4 @@ for i in range(15):
     tess.forward(10)             # move tess along a little
     tess.right(18)               # and give her some extra turn
 
-wn.exitonclick()
+wn.exitonclick() #end
